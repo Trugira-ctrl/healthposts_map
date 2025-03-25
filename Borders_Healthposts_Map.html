@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5a8e647aee0ceb2517c359e93da9e023 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5a8e647aee0ceb2517c359e93da9e023" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5a8e647aee0ceb2517c359e93da9e023 = L.map(
+                "map_5a8e647aee0ceb2517c359e93da9e023",
+                {
+                    center: [-1.5479678509285715, 30.13758480357143],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_603eefe29eec5a91f39339530cdd7572 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+            var marker_8f975225fba5b3087a969772e80872f4 = L.marker(
+                [-2.196317, 29.273422],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_fcf72947f888c50eadd6adeeab9a0549 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efba50d54c0141751a9020c9e2bb04b4 = $(`<div id="html_efba50d54c0141751a9020c9e2bb04b4" style="width: 100.0%; height: 100.0%;">GABIRO KAGARAMA HP</div>`)[0];
+            popup_fcf72947f888c50eadd6adeeab9a0549.setContent(html_efba50d54c0141751a9020c9e2bb04b4);
+        
+
+        marker_8f975225fba5b3087a969772e80872f4.bindPopup(popup_fcf72947f888c50eadd6adeeab9a0549)
+        ;
+
+        
+    
+    
+            marker_8f975225fba5b3087a969772e80872f4.bindTooltip(
+                `<div>
+                     GABIRO KAGARAMA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dd8b14f5137c192d098937b18da7301 = L.marker(
+                [-1.6897, 29.34926],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_dad190a0d5fbf418491bc9375dd756f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bd8f678a96b4d610ecd32af91015522 = $(`<div id="html_6bd8f678a96b4d610ecd32af91015522" style="width: 100.0%; height: 100.0%;">GORA HP</div>`)[0];
+            popup_dad190a0d5fbf418491bc9375dd756f3.setContent(html_6bd8f678a96b4d610ecd32af91015522);
+        
+
+        marker_5dd8b14f5137c192d098937b18da7301.bindPopup(popup_dad190a0d5fbf418491bc9375dd756f3)
+        ;
+
+        
+    
+    
+            marker_5dd8b14f5137c192d098937b18da7301.bindTooltip(
+                `<div>
+                     GORA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41e219eaa59c1a818448c9f93f7dec9c = L.marker(
+                [-1.3727186, 29.7200897],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_c2141d1c9513de209918afb45c9903fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a839575db4aacceae8a95119f7c3be6 = $(`<div id="html_0a839575db4aacceae8a95119f7c3be6" style="width: 100.0%; height: 100.0%;">NYAGAHINGA HP</div>`)[0];
+            popup_c2141d1c9513de209918afb45c9903fd.setContent(html_0a839575db4aacceae8a95119f7c3be6);
+        
+
+        marker_41e219eaa59c1a818448c9f93f7dec9c.bindPopup(popup_c2141d1c9513de209918afb45c9903fd)
+        ;
+
+        
+    
+    
+            marker_41e219eaa59c1a818448c9f93f7dec9c.bindTooltip(
+                `<div>
+                     NYAGAHINGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea6730e0837941272888ae9aa0c59465 = L.marker(
+                [-1.4849708, 29.9050388],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_e28e640558ce61ecbde3bac98e86aa4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cc412725ad8528126f52f25e0874f28 = $(`<div id="html_9cc412725ad8528126f52f25e0874f28" style="width: 100.0%; height: 100.0%;">BUKWASHURI HP</div>`)[0];
+            popup_e28e640558ce61ecbde3bac98e86aa4b.setContent(html_9cc412725ad8528126f52f25e0874f28);
+        
+
+        marker_ea6730e0837941272888ae9aa0c59465.bindPopup(popup_e28e640558ce61ecbde3bac98e86aa4b)
+        ;
+
+        
+    
+    
+            marker_ea6730e0837941272888ae9aa0c59465.bindTooltip(
+                `<div>
+                     BUKWASHURI HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b0ee0948cd6e977d262c409b34798bc = L.marker(
+                [-2.290917613, 30.80881205],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_f77ed6c4b18951320bf72c99e9eacaa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca352047bac4146c3ba17497ee02c63a = $(`<div id="html_ca352047bac4146c3ba17497ee02c63a" style="width: 100.0%; height: 100.0%;">MWOGA HP</div>`)[0];
+            popup_f77ed6c4b18951320bf72c99e9eacaa9.setContent(html_ca352047bac4146c3ba17497ee02c63a);
+        
+
+        marker_2b0ee0948cd6e977d262c409b34798bc.bindPopup(popup_f77ed6c4b18951320bf72c99e9eacaa9)
+        ;
+
+        
+    
+    
+            marker_2b0ee0948cd6e977d262c409b34798bc.bindTooltip(
+                `<div>
+                     MWOGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e31789613636ee98fa85d8d123944135 = L.marker(
+                [-1.4761904, 29.9683989],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_cf116a9d3af7947cb974724e063afc59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d225f6c8b2a1d9f6a206e25b5a064c41 = $(`<div id="html_d225f6c8b2a1d9f6a206e25b5a064c41" style="width: 100.0%; height: 100.0%;">BUSHENYA HP</div>`)[0];
+            popup_cf116a9d3af7947cb974724e063afc59.setContent(html_d225f6c8b2a1d9f6a206e25b5a064c41);
+        
+
+        marker_e31789613636ee98fa85d8d123944135.bindPopup(popup_cf116a9d3af7947cb974724e063afc59)
+        ;
+
+        
+    
+    
+            marker_e31789613636ee98fa85d8d123944135.bindTooltip(
+                `<div>
+                     BUSHENYA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc288d924efefa7274b28d8aa588493d = L.marker(
+                [-1.4274354, 30.0122811],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_2fddeb7c97126872d24734ff036c609b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a6cd96e2d38e6198bf19aca22e62699 = $(`<div id="html_7a6cd96e2d38e6198bf19aca22e62699" style="width: 100.0%; height: 100.0%;">GATUNA HP</div>`)[0];
+            popup_2fddeb7c97126872d24734ff036c609b.setContent(html_7a6cd96e2d38e6198bf19aca22e62699);
+        
+
+        marker_dc288d924efefa7274b28d8aa588493d.bindPopup(popup_2fddeb7c97126872d24734ff036c609b)
+        ;
+
+        
+    
+    
+            marker_dc288d924efefa7274b28d8aa588493d.bindTooltip(
+                `<div>
+                     GATUNA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c1ded8dc71824dd5d6c4aa0ac5cab7b = L.marker(
+                [-1.4045328, 30.1197591],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_feafe2f87f5853708380d9d332c0ca14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81c45df35347412ee5a7601bfa5322db = $(`<div id="html_81c45df35347412ee5a7601bfa5322db" style="width: 100.0%; height: 100.0%;">KARAMBO HP</div>`)[0];
+            popup_feafe2f87f5853708380d9d332c0ca14.setContent(html_81c45df35347412ee5a7601bfa5322db);
+        
+
+        marker_1c1ded8dc71824dd5d6c4aa0ac5cab7b.bindPopup(popup_feafe2f87f5853708380d9d332c0ca14)
+        ;
+
+        
+    
+    
+            marker_1c1ded8dc71824dd5d6c4aa0ac5cab7b.bindTooltip(
+                `<div>
+                     KARAMBO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_318014aed3e92fd8ca85a494699e80f5 = L.marker(
+                [-1.3216203, 30.1794846],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_c6574ced38f6d68e71fec5efa5695542 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_628c5850f31dcb7ddd6713ae6929a15f = $(`<div id="html_628c5850f31dcb7ddd6713ae6929a15f" style="width: 100.0%; height: 100.0%;">SHONGA HP</div>`)[0];
+            popup_c6574ced38f6d68e71fec5efa5695542.setContent(html_628c5850f31dcb7ddd6713ae6929a15f);
+        
+
+        marker_318014aed3e92fd8ca85a494699e80f5.bindPopup(popup_c6574ced38f6d68e71fec5efa5695542)
+        ;
+
+        
+    
+    
+            marker_318014aed3e92fd8ca85a494699e80f5.bindTooltip(
+                `<div>
+                     SHONGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bc434d3b4841c7d43b39c13d7de3e30 = L.marker(
+                [-1.268797, 30.302119],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_f312021a399da4bda9c3451fe382b43b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d85205c68a3c451d74ebac8544ceb451 = $(`<div id="html_d85205c68a3c451d74ebac8544ceb451" style="width: 100.0%; height: 100.0%;">NSHEKE HP</div>`)[0];
+            popup_f312021a399da4bda9c3451fe382b43b.setContent(html_d85205c68a3c451d74ebac8544ceb451);
+        
+
+        marker_4bc434d3b4841c7d43b39c13d7de3e30.bindPopup(popup_f312021a399da4bda9c3451fe382b43b)
+        ;
+
+        
+    
+    
+            marker_4bc434d3b4841c7d43b39c13d7de3e30.bindTooltip(
+                `<div>
+                     NSHEKE HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7af87bacd00f9b2c4043772174937094 = L.marker(
+                [-1.127734, 30.406838],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_ef8b2f6f49eda8e7cdedb267b7663550 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17817d3d4cde43796cdc51d3acd458c9 = $(`<div id="html_17817d3d4cde43796cdc51d3acd458c9" style="width: 100.0%; height: 100.0%;">RUGARAMA HP</div>`)[0];
+            popup_ef8b2f6f49eda8e7cdedb267b7663550.setContent(html_17817d3d4cde43796cdc51d3acd458c9);
+        
+
+        marker_7af87bacd00f9b2c4043772174937094.bindPopup(popup_ef8b2f6f49eda8e7cdedb267b7663550)
+        ;
+
+        
+    
+    
+            marker_7af87bacd00f9b2c4043772174937094.bindTooltip(
+                `<div>
+                     RUGARAMA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27b7b38f99ca3eb04241c71fc7338dc9 = L.marker(
+                [-1.203104, 30.483772],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_0d78af1ac4564072759495302ff1535e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c8915e539af2a3d1f71783c8a657f89 = $(`<div id="html_0c8915e539af2a3d1f71783c8a657f89" style="width: 100.0%; height: 100.0%;">GAKAGATI HP</div>`)[0];
+            popup_0d78af1ac4564072759495302ff1535e.setContent(html_0c8915e539af2a3d1f71783c8a657f89);
+        
+
+        marker_27b7b38f99ca3eb04241c71fc7338dc9.bindPopup(popup_0d78af1ac4564072759495302ff1535e)
+        ;
+
+        
+    
+    
+            marker_27b7b38f99ca3eb04241c71fc7338dc9.bindTooltip(
+                `<div>
+                     GAKAGATI HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32803f0ac53d8664cd079c86023ee028 = L.marker(
+                [-1.322956, 30.553134],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_509e17e6934f83842cd00bee9a10d91e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_875a0e098c322ac74a8b12dc83eb3e33 = $(`<div id="html_875a0e098c322ac74a8b12dc83eb3e33" style="width: 100.0%; height: 100.0%;">KARUSHUGA KIREBE HP</div>`)[0];
+            popup_509e17e6934f83842cd00bee9a10d91e.setContent(html_875a0e098c322ac74a8b12dc83eb3e33);
+        
+
+        marker_32803f0ac53d8664cd079c86023ee028.bindPopup(popup_509e17e6934f83842cd00bee9a10d91e)
+        ;
+
+        
+    
+    
+            marker_32803f0ac53d8664cd079c86023ee028.bindTooltip(
+                `<div>
+                     KARUSHUGA KIREBE HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1579d5ba44836743c86132794ec69b10 = L.marker(
+                [-2.084556, 30.843778],
+                {}
+            ).addTo(map_5a8e647aee0ceb2517c359e93da9e023);
+        
+    
+        var popup_854072f8fb446846c36a6eeb090f9105 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d9e408742089fd090b17858de124b95 = $(`<div id="html_3d9e408742089fd090b17858de124b95" style="width: 100.0%; height: 100.0%;">NASHO HP</div>`)[0];
+            popup_854072f8fb446846c36a6eeb090f9105.setContent(html_3d9e408742089fd090b17858de124b95);
+        
+
+        marker_1579d5ba44836743c86132794ec69b10.bindPopup(popup_854072f8fb446846c36a6eeb090f9105)
+        ;
+
+        
+    
+    
+            marker_1579d5ba44836743c86132794ec69b10.bindTooltip(
+                `<div>
+                     NASHO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

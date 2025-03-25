@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6df0251b91faf4b9b097144a2958585f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6df0251b91faf4b9b097144a2958585f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6df0251b91faf4b9b097144a2958585f = L.map(
+                "map_6df0251b91faf4b9b097144a2958585f",
+                {
+                    center: [-2.0, 30.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ffd394c7ab61f6cb340684268b142aa2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+            var marker_b9188ae37f30093944a4f5fb5dff4afc = L.marker(
+                [-2.073403, 30.1312488],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_ddd1b0a83cc5896ed85b55fa21da457f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a74aaf6499c8d704cfad6677ab20831 = $(`<div id="html_6a74aaf6499c8d704cfad6677ab20831" style="width: 100.0%; height: 100.0%;">KAGASA HP (612 visits)</div>`)[0];
+            popup_ddd1b0a83cc5896ed85b55fa21da457f.setContent(html_6a74aaf6499c8d704cfad6677ab20831);
+        
+
+        marker_b9188ae37f30093944a4f5fb5dff4afc.bindPopup(popup_ddd1b0a83cc5896ed85b55fa21da457f)
+        ;
+
+        
+    
+    
+            marker_b9188ae37f30093944a4f5fb5dff4afc.bindTooltip(
+                `<div>
+                     KAGASA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c27fa896fba58914adaa4a62a5a47dc = L.marker(
+                [-2.218138, 30.420268],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_5fe3063ad24b67d142004432a3fc3bd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_176b44c232f82470ed554b62a447b266 = $(`<div id="html_176b44c232f82470ed554b62a447b266" style="width: 100.0%; height: 100.0%;">NKANGA HP (407 visits)</div>`)[0];
+            popup_5fe3063ad24b67d142004432a3fc3bd7.setContent(html_176b44c232f82470ed554b62a447b266);
+        
+
+        marker_7c27fa896fba58914adaa4a62a5a47dc.bindPopup(popup_5fe3063ad24b67d142004432a3fc3bd7)
+        ;
+
+        
+    
+    
+            marker_7c27fa896fba58914adaa4a62a5a47dc.bindTooltip(
+                `<div>
+                     NKANGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1f8940cddd9cd3bf14e8ee9d22203d0 = L.marker(
+                [-1.42274, 30.311986],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_bd4219d3ae51af400447bfaec0bb790a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54011c0b3c5d687a5bbf486eeca822e6 = $(`<div id="html_54011c0b3c5d687a5bbf486eeca822e6" style="width: 100.0%; height: 100.0%;">KANYEGANYEGE HP (400 visits)</div>`)[0];
+            popup_bd4219d3ae51af400447bfaec0bb790a.setContent(html_54011c0b3c5d687a5bbf486eeca822e6);
+        
+
+        marker_c1f8940cddd9cd3bf14e8ee9d22203d0.bindPopup(popup_bd4219d3ae51af400447bfaec0bb790a)
+        ;
+
+        
+    
+    
+            marker_c1f8940cddd9cd3bf14e8ee9d22203d0.bindTooltip(
+                `<div>
+                     KANYEGANYEGE HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0bf75f15a6861e006fcd82f9a11545e = L.marker(
+                [-2.2507087, 30.2175704],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_c01b741fa28a5bce94d316eba45a71c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d3d409134b8bdbe4dbd4aa65d1966c9 = $(`<div id="html_7d3d409134b8bdbe4dbd4aa65d1966c9" style="width: 100.0%; height: 100.0%;">RAMIRO HP (385 visits)</div>`)[0];
+            popup_c01b741fa28a5bce94d316eba45a71c4.setContent(html_7d3d409134b8bdbe4dbd4aa65d1966c9);
+        
+
+        marker_c0bf75f15a6861e006fcd82f9a11545e.bindPopup(popup_c01b741fa28a5bce94d316eba45a71c4)
+        ;
+
+        
+    
+    
+            marker_c0bf75f15a6861e006fcd82f9a11545e.bindTooltip(
+                `<div>
+                     RAMIRO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_508cf6d9fb56e2d5a011b2043d26d591 = L.marker(
+                [-2.365933, 29.130376],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_08a515221059900a0f13cc588ac1620e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_516e0f81a3fe1f69dc9e5f8093f757b6 = $(`<div id="html_516e0f81a3fe1f69dc9e5f8093f757b6" style="width: 100.0%; height: 100.0%;">GAKO HP (366 visits)</div>`)[0];
+            popup_08a515221059900a0f13cc588ac1620e.setContent(html_516e0f81a3fe1f69dc9e5f8093f757b6);
+        
+
+        marker_508cf6d9fb56e2d5a011b2043d26d591.bindPopup(popup_08a515221059900a0f13cc588ac1620e)
+        ;
+
+        
+    
+    
+            marker_508cf6d9fb56e2d5a011b2043d26d591.bindTooltip(
+                `<div>
+                     GAKO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_678cfac8e0f9f75496011cda0bcb6e57 = L.marker(
+                [-2.0745597, 30.1841896],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_0900666f4f3ca0219a3eaa18f8f19dfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a119f1065b4b0bff82bed3db3292132 = $(`<div id="html_6a119f1065b4b0bff82bed3db3292132" style="width: 100.0%; height: 100.0%;">MUSOVU HP (338 visits)</div>`)[0];
+            popup_0900666f4f3ca0219a3eaa18f8f19dfe.setContent(html_6a119f1065b4b0bff82bed3db3292132);
+        
+
+        marker_678cfac8e0f9f75496011cda0bcb6e57.bindPopup(popup_0900666f4f3ca0219a3eaa18f8f19dfe)
+        ;
+
+        
+    
+    
+            marker_678cfac8e0f9f75496011cda0bcb6e57.bindTooltip(
+                `<div>
+                     MUSOVU HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84ab06bb244407117b6451fee51b8efa = L.marker(
+                [-2.1652754, 30.0041323],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_f1f09ca8de942e1a940f6bc30534b0f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6d143f2a48db268e3b0f1247ad049ec = $(`<div id="html_b6d143f2a48db268e3b0f1247ad049ec" style="width: 100.0%; height: 100.0%;">RULINDO HP (325 visits)</div>`)[0];
+            popup_f1f09ca8de942e1a940f6bc30534b0f9.setContent(html_b6d143f2a48db268e3b0f1247ad049ec);
+        
+
+        marker_84ab06bb244407117b6451fee51b8efa.bindPopup(popup_f1f09ca8de942e1a940f6bc30534b0f9)
+        ;
+
+        
+    
+    
+            marker_84ab06bb244407117b6451fee51b8efa.bindTooltip(
+                `<div>
+                     RULINDO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03f89b7d469a6ea08b057a2bb366e40f = L.marker(
+                [-2.313317, 29.922015],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_ea9a402ae878b38ae75e959330deb099 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a08f560445c3fda7067eb90fead4362d = $(`<div id="html_a08f560445c3fda7067eb90fead4362d" style="width: 100.0%; height: 100.0%;">KAGUNGA HP (316 visits)</div>`)[0];
+            popup_ea9a402ae878b38ae75e959330deb099.setContent(html_a08f560445c3fda7067eb90fead4362d);
+        
+
+        marker_03f89b7d469a6ea08b057a2bb366e40f.bindPopup(popup_ea9a402ae878b38ae75e959330deb099)
+        ;
+
+        
+    
+    
+            marker_03f89b7d469a6ea08b057a2bb366e40f.bindTooltip(
+                `<div>
+                     KAGUNGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_628cbc3ea7b10d4518c6741cdab2e4ef = L.marker(
+                [-2.3109771, 30.0837167],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_e9b59146caf72aa60a14f0383039d514 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84278ba448f2a7620c6dfd54d510abb4 = $(`<div id="html_84278ba448f2a7620c6dfd54d510abb4" style="width: 100.0%; height: 100.0%;">GIKUNDAMVURA HP (311 visits)</div>`)[0];
+            popup_e9b59146caf72aa60a14f0383039d514.setContent(html_84278ba448f2a7620c6dfd54d510abb4);
+        
+
+        marker_628cbc3ea7b10d4518c6741cdab2e4ef.bindPopup(popup_e9b59146caf72aa60a14f0383039d514)
+        ;
+
+        
+    
+    
+            marker_628cbc3ea7b10d4518c6741cdab2e4ef.bindTooltip(
+                `<div>
+                     GIKUNDAMVURA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23038999e34a9319e296e9c6c9176f95 = L.marker(
+                [-1.5161655, 30.121961],
+                {}
+            ).addTo(map_6df0251b91faf4b9b097144a2958585f);
+        
+    
+        var popup_03a66e8ef37d08d6d37fa4bd144b7c92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2530414cbfe794b60a268d104c1076a1 = $(`<div id="html_2530414cbfe794b60a268d104c1076a1" style="width: 100.0%; height: 100.0%;">KABO HP (304 visits)</div>`)[0];
+            popup_03a66e8ef37d08d6d37fa4bd144b7c92.setContent(html_2530414cbfe794b60a268d104c1076a1);
+        
+
+        marker_23038999e34a9319e296e9c6c9176f95.bindPopup(popup_03a66e8ef37d08d6d37fa4bd144b7c92)
+        ;
+
+        
+    
+    
+            marker_23038999e34a9319e296e9c6c9176f95.bindTooltip(
+                `<div>
+                     KABO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
