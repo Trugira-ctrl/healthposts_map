@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1803295812488facc164285d1cb3d504 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1803295812488facc164285d1cb3d504" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1803295812488facc164285d1cb3d504 = L.map(
+                "map_1803295812488facc164285d1cb3d504",
+                {
+                    center: [-2.0, 30.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2ec4b5879b78661b92731d92858bf5b0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1803295812488facc164285d1cb3d504);
+        
+    
+            var marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b = L.markerClusterGroup(
+                {}
+            );
+            map_1803295812488facc164285d1cb3d504.addLayer(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            var marker_ef89833b36e9ae332af4e02946882b95 = L.marker(
+                [-2.196317, 29.273422],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_ef89833b36e9ae332af4e02946882b95.bindTooltip(
+                `<div>
+                     GABIRO KAGARAMA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8721cef54284f0c0437f1b8a0d462b1b = L.marker(
+                [-1.6897, 29.34926],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_8721cef54284f0c0437f1b8a0d462b1b.bindTooltip(
+                `<div>
+                     GORA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bb508eb1d266c2e01bb44f97e915d75 = L.marker(
+                [-1.3727186, 29.7200897],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_0bb508eb1d266c2e01bb44f97e915d75.bindTooltip(
+                `<div>
+                     NYAGAHINGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16ee9030f2134ebbef7f482b24d375dc = L.marker(
+                [-1.4849708, 29.9050388],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_16ee9030f2134ebbef7f482b24d375dc.bindTooltip(
+                `<div>
+                     BUKWASHURI HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e6cfcb5628836c5f1e1d4d7d706c3d5 = L.marker(
+                [-2.290917613, 30.80881205],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_8e6cfcb5628836c5f1e1d4d7d706c3d5.bindTooltip(
+                `<div>
+                     MWOGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2aa63bd57402301000f9d83f4a05270 = L.marker(
+                [-1.4761904, 29.9683989],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_e2aa63bd57402301000f9d83f4a05270.bindTooltip(
+                `<div>
+                     BUSHENYA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc89005facd5bd328ae95d4b9f428397 = L.marker(
+                [-1.4274354, 30.0122811],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_bc89005facd5bd328ae95d4b9f428397.bindTooltip(
+                `<div>
+                     GATUNA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14bde7c8db8cd4cebd78783d855b5706 = L.marker(
+                [-1.4045328, 30.1197591],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_14bde7c8db8cd4cebd78783d855b5706.bindTooltip(
+                `<div>
+                     KARAMBO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24efca2b8eb84eb3e70317f88c78a8d6 = L.marker(
+                [-1.3216203, 30.1794846],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_24efca2b8eb84eb3e70317f88c78a8d6.bindTooltip(
+                `<div>
+                     SHONGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_188c6e0845d190004a946da712b27d91 = L.marker(
+                [-1.268797, 30.302119],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_188c6e0845d190004a946da712b27d91.bindTooltip(
+                `<div>
+                     NSHEKE HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3246fc5988b726741d9402ba60986c77 = L.marker(
+                [-1.127734, 30.406838],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_3246fc5988b726741d9402ba60986c77.bindTooltip(
+                `<div>
+                     RUGARAMA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6560ac89b49a2012aeecc7dfab0a65a1 = L.marker(
+                [-1.203104, 30.483772],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_6560ac89b49a2012aeecc7dfab0a65a1.bindTooltip(
+                `<div>
+                     GAKAGATI HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7650d04b4d5cadf7e7415aabf8086cf0 = L.marker(
+                [-1.322956, 30.553134],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_7650d04b4d5cadf7e7415aabf8086cf0.bindTooltip(
+                `<div>
+                     KARUSHUGA KIREBE HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ecb4d5b94c40ed64ba1a14b2ea2d2887 = L.marker(
+                [-2.084556, 30.843778],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_ecb4d5b94c40ed64ba1a14b2ea2d2887.bindTooltip(
+                `<div>
+                     NASHO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_066759b686543607f92e0c5b670d12e8 = L.marker(
+                [-2.073403, 30.1312488],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_066759b686543607f92e0c5b670d12e8.bindTooltip(
+                `<div>
+                     KAGASA HP (612 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51003445febf6c0b1e99381ee2689c9e = L.marker(
+                [-2.218138, 30.420268],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_51003445febf6c0b1e99381ee2689c9e.bindTooltip(
+                `<div>
+                     NKANGA HP (407 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9740ca79a5d204abd5141092d6906bf7 = L.marker(
+                [-1.42274, 30.311986],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_9740ca79a5d204abd5141092d6906bf7.bindTooltip(
+                `<div>
+                     KANYEGANYEGE HP (400 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_935f52f98222d38a7711e6bb0e41d23d = L.marker(
+                [-2.2507087, 30.2175704],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_935f52f98222d38a7711e6bb0e41d23d.bindTooltip(
+                `<div>
+                     RAMIRO HP (385 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d98dd21e7669978b466e0f5fe3908cf = L.marker(
+                [-2.365933, 29.130376],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_3d98dd21e7669978b466e0f5fe3908cf.bindTooltip(
+                `<div>
+                     GAKO HP (366 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dee32a7a4a8959ce198b1a8c72c56704 = L.marker(
+                [-2.0745597, 30.1841896],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_dee32a7a4a8959ce198b1a8c72c56704.bindTooltip(
+                `<div>
+                     MUSOVU HP (338 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5733a69b36196c087978795d046e6487 = L.marker(
+                [-2.1652754, 30.0041323],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_5733a69b36196c087978795d046e6487.bindTooltip(
+                `<div>
+                     RULINDO HP (325 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d23979950f118f327c0263e41c965e36 = L.marker(
+                [-2.313317, 29.922015],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_d23979950f118f327c0263e41c965e36.bindTooltip(
+                `<div>
+                     KAGUNGA HP (316 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef66924dfe0369700a28eb89bf5b807b = L.marker(
+                [-2.3109771, 30.0837167],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_ef66924dfe0369700a28eb89bf5b807b.bindTooltip(
+                `<div>
+                     GIKUNDAMVURA HP (311 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47286f64a1c17cf5903ec613f9488155 = L.marker(
+                [-1.5161655, 30.121961],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_47286f64a1c17cf5903ec613f9488155.bindTooltip(
+                `<div>
+                     KABO HP (304 visits)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f061741a6ebfdf087fc4dcff7f21be8d = L.marker(
+                [-2.356139763, 30.60121377],
+                {}
+            ).addTo(marker_cluster_43d2cee15ca13a143c1e7c6f54a8ea2b);
+        
+    
+            marker_f061741a6ebfdf087fc4dcff7f21be8d.bindTooltip(
+                `<div>
+                     KABUGA/KIREHE FGHP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
