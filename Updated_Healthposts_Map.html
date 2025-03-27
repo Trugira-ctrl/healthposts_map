@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16d0e52dfb9cc5c7d2ec14668f566652 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_16d0e52dfb9cc5c7d2ec14668f566652" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_16d0e52dfb9cc5c7d2ec14668f566652 = L.map(
+                "map_16d0e52dfb9cc5c7d2ec14668f566652",
+                {
+                    center: [-2.0, 30.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_251f80d8dbe4b53cb3d78327c3762f22 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_16d0e52dfb9cc5c7d2ec14668f566652);
+        
+    
+            var feature_group_b6afb3c0c6532f92d4e03f30216dcc79 = L.featureGroup(
+                {}
+            ).addTo(map_16d0e52dfb9cc5c7d2ec14668f566652);
+        
+    
+            var marker_b4e6f91697f91bb4364da8d5cb55d969 = L.marker(
+                [-2.073403, 30.1312488],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_ef7a3e52969f3d61761727c3082b5f9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b4e6f91697f91bb4364da8d5cb55d969.setIcon(icon_ef7a3e52969f3d61761727c3082b5f9f);
+        
+    
+            marker_b4e6f91697f91bb4364da8d5cb55d969.bindTooltip(
+                `<div>
+                     KAGASA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4bd6fffa7f0bfee248da4893c9a6286 = L.marker(
+                [-2.218138, 30.420268],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_bd7c71c13b86832e40d9e07d64bb0f66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f4bd6fffa7f0bfee248da4893c9a6286.setIcon(icon_bd7c71c13b86832e40d9e07d64bb0f66);
+        
+    
+            marker_f4bd6fffa7f0bfee248da4893c9a6286.bindTooltip(
+                `<div>
+                     NKANGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9aacf4e4304935687def93c465664ca = L.marker(
+                [-1.42274, 30.311986],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_c206504e596ebf07dc0ade06c3aba345 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e9aacf4e4304935687def93c465664ca.setIcon(icon_c206504e596ebf07dc0ade06c3aba345);
+        
+    
+            marker_e9aacf4e4304935687def93c465664ca.bindTooltip(
+                `<div>
+                     KANYEGANYEGE HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b314e53a5d1b5d14703495b3fdec1d64 = L.marker(
+                [-2.2507087, 30.2175704],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_e8122ffde8d43f4882cb7150a06bd06a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b314e53a5d1b5d14703495b3fdec1d64.setIcon(icon_e8122ffde8d43f4882cb7150a06bd06a);
+        
+    
+            marker_b314e53a5d1b5d14703495b3fdec1d64.bindTooltip(
+                `<div>
+                     RAMIRO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49cf056a691f34ec386afd0515adef34 = L.marker(
+                [-2.365933, 29.130376],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_f930f483493a490315a70775a05da842 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49cf056a691f34ec386afd0515adef34.setIcon(icon_f930f483493a490315a70775a05da842);
+        
+    
+            marker_49cf056a691f34ec386afd0515adef34.bindTooltip(
+                `<div>
+                     GAKO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_738c5d385a82368574b31dddb1c10652 = L.marker(
+                [-2.0745597, 30.1841896],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_a047ac9113621fb6606f524e4cb55e3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_738c5d385a82368574b31dddb1c10652.setIcon(icon_a047ac9113621fb6606f524e4cb55e3f);
+        
+    
+            marker_738c5d385a82368574b31dddb1c10652.bindTooltip(
+                `<div>
+                     MUSOVU HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16379c6e56f52ba751b357dd7713afc2 = L.marker(
+                [-2.1652754, 30.0041323],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_2c7f80c6cb47c3ce96e3c76acf74b805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16379c6e56f52ba751b357dd7713afc2.setIcon(icon_2c7f80c6cb47c3ce96e3c76acf74b805);
+        
+    
+            marker_16379c6e56f52ba751b357dd7713afc2.bindTooltip(
+                `<div>
+                     RULINDO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d1398967fc21b70d612bfa03dc6ab0b = L.marker(
+                [-1.5161655, 30.121961],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_88e369c5a58284d324ba323a64b4253d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d1398967fc21b70d612bfa03dc6ab0b.setIcon(icon_88e369c5a58284d324ba323a64b4253d);
+        
+    
+            marker_2d1398967fc21b70d612bfa03dc6ab0b.bindTooltip(
+                `<div>
+                     KABO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da43d89bc0a28d0cfe21919ad2dc7beb = L.marker(
+                [-2.7392974, 29.4476703],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_0adf237672c7ea8e6d092880bfc4bb98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_da43d89bc0a28d0cfe21919ad2dc7beb.setIcon(icon_0adf237672c7ea8e6d092880bfc4bb98);
+        
+    
+            marker_da43d89bc0a28d0cfe21919ad2dc7beb.bindTooltip(
+                `<div>
+                     MISHUNGERO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d71bdf712760f5d17ab667b0cffce599 = L.marker(
+                [-2.2271545, 30.1593545],
+                {}
+            ).addTo(feature_group_b6afb3c0c6532f92d4e03f30216dcc79);
+        
+    
+            var icon_b738d56d9d61deaa343282a17dabd6b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d71bdf712760f5d17ab667b0cffce599.setIcon(icon_b738d56d9d61deaa343282a17dabd6b6);
+        
+    
+            marker_d71bdf712760f5d17ab667b0cffce599.bindTooltip(
+                `<div>
+                     MBYO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_769bf7e335d483570fa920e6c4333628 = L.featureGroup(
+                {}
+            ).addTo(map_16d0e52dfb9cc5c7d2ec14668f566652);
+        
+    
+            var marker_3ae810e6b57a9f2c409411a89cae49cd = L.marker(
+                [-2.073403, 30.1312488],
+                {}
+            ).addTo(feature_group_769bf7e335d483570fa920e6c4333628);
+        
+    
+            var icon_2a14acaea1fd9a9764405c422fb7cceb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ae810e6b57a9f2c409411a89cae49cd.setIcon(icon_2a14acaea1fd9a9764405c422fb7cceb);
+        
+    
+            marker_3ae810e6b57a9f2c409411a89cae49cd.bindTooltip(
+                `<div>
+                     KAGASA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5da1803d3c3099fa928330974819f60b = L.marker(
+                [-2.218138, 30.420268],
+                {}
+            ).addTo(feature_group_769bf7e335d483570fa920e6c4333628);
+        
+    
+            var icon_5cc51534d5f0825b20b48f2007434ffa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5da1803d3c3099fa928330974819f60b.setIcon(icon_5cc51534d5f0825b20b48f2007434ffa);
+        
+    
+            marker_5da1803d3c3099fa928330974819f60b.bindTooltip(
+                `<div>
+                     NKANGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e9facdff85c348dc0c8321ea192a7c4 = L.marker(
+                [-1.42274, 30.311986],
+                {}
+            ).addTo(feature_group_769bf7e335d483570fa920e6c4333628);
+        
+    
+            var icon_3e5d4cc4f509047214152ac29c7e63f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7e9facdff85c348dc0c8321ea192a7c4.setIcon(icon_3e5d4cc4f509047214152ac29c7e63f3);
+        
+    
+            marker_7e9facdff85c348dc0c8321ea192a7c4.bindTooltip(
+                `<div>
+                     KANYEGANYEGE HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_007645d99c694db31b6c74b3bef93a7f = L.marker(
+                [-2.2507087, 30.2175704],
+                {}
+            ).addTo(feature_group_769bf7e335d483570fa920e6c4333628);
+        
+    
+            var icon_4983d932320d7e2faa16ffbcefe957e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_007645d99c694db31b6c74b3bef93a7f.setIcon(icon_4983d932320d7e2faa16ffbcefe957e0);
+        
+    
+            marker_007645d99c694db31b6c74b3bef93a7f.bindTooltip(
+                `<div>
+                     RAMIRO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd5d6a73a94a5140df5ad7517a4b9e88 = L.marker(
+                [-2.365933, 29.130376],
+                {}
+            ).addTo(feature_group_769bf7e335d483570fa920e6c4333628);
+        
+    
+            var icon_34118d6eb9cbea76adbd084fa120e85c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd5d6a73a94a5140df5ad7517a4b9e88.setIcon(icon_34118d6eb9cbea76adbd084fa120e85c);
+        
+    
+            marker_fd5d6a73a94a5140df5ad7517a4b9e88.bindTooltip(
+                `<div>
+                     GAKO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_5b070a65a22d54a6dcd6233afa83e001 = L.featureGroup(
+                {}
+            ).addTo(map_16d0e52dfb9cc5c7d2ec14668f566652);
+        
+    
+            var marker_62c793f85fb65ec8b516cbcc6b767613 = L.marker(
+                [-1.4045328, 30.1197591],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_c37acf1a20a3a2f7af10a525b7cca61d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_62c793f85fb65ec8b516cbcc6b767613.setIcon(icon_c37acf1a20a3a2f7af10a525b7cca61d);
+        
+    
+            marker_62c793f85fb65ec8b516cbcc6b767613.bindTooltip(
+                `<div>
+                     KARAMBO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2eeb80482cda269616a26738ab32d5bb = L.marker(
+                [-2.670539, 29.812032],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_383b7760ec4ea635837229004d4d5b4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2eeb80482cda269616a26738ab32d5bb.setIcon(icon_383b7760ec4ea635837229004d4d5b4f);
+        
+    
+            marker_2eeb80482cda269616a26738ab32d5bb.bindTooltip(
+                `<div>
+                     MUNINI HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b994be794485b90414dfb95af011e6e = L.marker(
+                [-2.77169, 29.5891],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_0ed6759787459f69eeca38e07a78c0f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b994be794485b90414dfb95af011e6e.setIcon(icon_0ed6759787459f69eeca38e07a78c0f9);
+        
+    
+            marker_2b994be794485b90414dfb95af011e6e.bindTooltip(
+                `<div>
+                     MUHAMBARA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19bd7946f9987463a10e58669c070462 = L.marker(
+                [-2.084556, 30.843778],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_3148145465fbac29fd2130ca1945ff19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19bd7946f9987463a10e58669c070462.setIcon(icon_3148145465fbac29fd2130ca1945ff19);
+        
+    
+            marker_19bd7946f9987463a10e58669c070462.bindTooltip(
+                `<div>
+                     NASHO HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cbdcc3894cce58e9ece0adbd83c61ba = L.marker(
+                [-1.268797, 30.302119],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_bf6bbc24c9713297700aa1dbada2f89a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4cbdcc3894cce58e9ece0adbd83c61ba.setIcon(icon_bf6bbc24c9713297700aa1dbada2f89a);
+        
+    
+            marker_4cbdcc3894cce58e9ece0adbd83c61ba.bindTooltip(
+                `<div>
+                     NSHEKE HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce1ef00c7224ada3afaf7660815d4515 = L.marker(
+                [-1.4274354, 30.0122811],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_4a6513f4612118fd9c9aa45768fefd8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce1ef00c7224ada3afaf7660815d4515.setIcon(icon_4a6513f4612118fd9c9aa45768fefd8c);
+        
+    
+            marker_ce1ef00c7224ada3afaf7660815d4515.bindTooltip(
+                `<div>
+                     GATUNA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ac07e945441fe2d1c124640ff03461b = L.marker(
+                [-1.3216203, 30.1794846],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_7a58825a85c7c12f0aed59d23c3a4370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ac07e945441fe2d1c124640ff03461b.setIcon(icon_7a58825a85c7c12f0aed59d23c3a4370);
+        
+    
+            marker_8ac07e945441fe2d1c124640ff03461b.bindTooltip(
+                `<div>
+                     SHONGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dae3f45907f68a28974b2481d33e3614 = L.marker(
+                [-2.609213, 29.86398],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_638f1f3320542a822f8d4b5a60c94319 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dae3f45907f68a28974b2481d33e3614.setIcon(icon_638f1f3320542a822f8d4b5a60c94319);
+        
+    
+            marker_dae3f45907f68a28974b2481d33e3614.bindTooltip(
+                `<div>
+                     DAHWE HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc9ab1468e8e64b94682fad5cc537610 = L.marker(
+                [-2.196317, 29.273422],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_6dcdd5039ecc5984e1c68667797e7bd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc9ab1468e8e64b94682fad5cc537610.setIcon(icon_6dcdd5039ecc5984e1c68667797e7bd5);
+        
+    
+            marker_bc9ab1468e8e64b94682fad5cc537610.bindTooltip(
+                `<div>
+                     GABIRO KAGARAMA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e049cc9c917c470edcfb8fd5bac3798 = L.marker(
+                [-1.3727186, 29.7200897],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_10c060eaf67ae948d974333a942a1da9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e049cc9c917c470edcfb8fd5bac3798.setIcon(icon_10c060eaf67ae948d974333a942a1da9);
+        
+    
+            marker_5e049cc9c917c470edcfb8fd5bac3798.bindTooltip(
+                `<div>
+                     NYAGAHINGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e326cb82c5bb8255a58568cb49678131 = L.marker(
+                [-1.6897, 29.34926],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_7de064fd65a328b5264b8708e0f53974 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e326cb82c5bb8255a58568cb49678131.setIcon(icon_7de064fd65a328b5264b8708e0f53974);
+        
+    
+            marker_e326cb82c5bb8255a58568cb49678131.bindTooltip(
+                `<div>
+                     GORA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2730ebc13c4117f5855567ed022a2a82 = L.marker(
+                [-1.4849708, 29.9050388],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_2d316d957e5f733d6466561f5739bbab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2730ebc13c4117f5855567ed022a2a82.setIcon(icon_2d316d957e5f733d6466561f5739bbab);
+        
+    
+            marker_2730ebc13c4117f5855567ed022a2a82.bindTooltip(
+                `<div>
+                     BUKWASHURI HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c89cd2c600599b95947d6c0766701f3a = L.marker(
+                [-1.127734, 30.406838],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_7ab3d5bcfd278ade1811b3f1f99c9180 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c89cd2c600599b95947d6c0766701f3a.setIcon(icon_7ab3d5bcfd278ade1811b3f1f99c9180);
+        
+    
+            marker_c89cd2c600599b95947d6c0766701f3a.bindTooltip(
+                `<div>
+                     RUGARAMA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12e89caa33497e49522dfc777b9fd192 = L.marker(
+                [-2.290917613, 30.80881205],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_e2e95e1cecd612fbae61b71133e9cb8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12e89caa33497e49522dfc777b9fd192.setIcon(icon_e2e95e1cecd612fbae61b71133e9cb8b);
+        
+    
+            marker_12e89caa33497e49522dfc777b9fd192.bindTooltip(
+                `<div>
+                     MWOGA HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac72defb39eefa1b600ea856e0229680 = L.marker(
+                [-1.203104, 30.483772],
+                {}
+            ).addTo(feature_group_5b070a65a22d54a6dcd6233afa83e001);
+        
+    
+            var icon_3d4dabee7a9ba3b1710a8f3f9ad09e30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac72defb39eefa1b600ea856e0229680.setIcon(icon_3d4dabee7a9ba3b1710a8f3f9ad09e30);
+        
+    
+            marker_ac72defb39eefa1b600ea856e0229680.bindTooltip(
+                `<div>
+                     GAKAGATI HP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_e1f47155dbaba6c349752183de5edaa6 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_251f80d8dbe4b53cb3d78327c3762f22,
+                },
+                overlays :  {
+                    "Top 10 Avg Resp Visits" : feature_group_b6afb3c0c6532f92d4e03f30216dcc79,
+                    "Top 5 Footfall" : feature_group_769bf7e335d483570fa920e6c4333628,
+                    "Border Healthposts" : feature_group_5b070a65a22d54a6dcd6233afa83e001,
+                },
+            };
+            L.control.layers(
+                layer_control_e1f47155dbaba6c349752183de5edaa6.base_layers,
+                layer_control_e1f47155dbaba6c349752183de5edaa6.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_16d0e52dfb9cc5c7d2ec14668f566652);
+            feature_group_769bf7e335d483570fa920e6c4333628.remove();
+            feature_group_5b070a65a22d54a6dcd6233afa83e001.remove();
+        
+</script>
+</html>
